@@ -10,6 +10,9 @@ for i in range(len(question_data)):
 
 quiz = QuizBrain(question_bank)
 
+print("Welcome to the quiz game!")
+print("Type 'True' or 'False' as answers.")
+
 while quiz.still_has_questions():
     quiz.next_question()
 
